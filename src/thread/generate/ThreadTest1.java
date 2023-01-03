@@ -11,13 +11,11 @@ public class ThreadTest1 extends Thread{
 			} catch (InterruptedException e) {
 				
 			}
-		}
+		}//for
 	}
 	
 	public static void main(String[] args) {
 		ThreadTest1 t1 = new ThreadTest1(); //new born 상태
 		t1.start();
-		
 	}
-
-}
+}//class
